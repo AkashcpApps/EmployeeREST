@@ -1,0 +1,48 @@
+Task
+
+1) http://localhost:8080/task/getAllTasks ->GET
+
+2) http://localhost:8080/task/insertTask ->POST
+
+{
+        "task_ID": 5,
+        "short_Name": "PLN",
+        "task_Name": "Plan"
+    }
+
+3) Update task
+
+http://localhost:8080/task/UpdateTask/1 ->PUT
+
+{
+        "task_ID": 1,
+        "short_Name": "Nisu",
+        "task_Name": "NISU"
+    }
+
+4) http://localhost:8080/task/deleteTask/2 ->DELETE
+
+
+Employee
+
+1) http://localhost:8080/employee/getAllEmployees ->GET
+
+2) http://localhost:8080/employee/InsertEmployee ->POST
+
+{
+"employeeID":5,
+"firstName":"Rakki",
+"lastName":"ML",
+"task":2
+}
+
+3) http://localhost:8080/employee/UpdateEmployee/26  ->PUT
+
+{
+"employeeID":26,
+"firstName":"Vasa",
+"lastName":"Sri",
+"task":4
+}
+
+4) http://localhost:8080/employee/deleteEmployee/20 ->Delete
